@@ -23,10 +23,10 @@
 
 - [x] Clone the shared GitHub repository.
 - [x] Create a local `develop` branch.
-- [ ] Confirm write access to the shared GitHub repository.
-- [ ] Commit the setup documentation.
-- [ ] Push the `develop` branch to GitHub.
-- [ ] Verify the branch and commit on GitHub.
+- [x] Confirm write access to the shared GitHub repository.
+- [x] Commit the setup documentation.
+- [x] Push the `develop` branch to GitHub.
+- [x] Verify the branch and commit on GitHub.
 
 ## 4. Documentation
 
