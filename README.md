@@ -5,6 +5,51 @@ Intelligent Decision Support System (IDSS) backend application for satellite-dri
 ---
 
 ## Team Onboarding Guide (Ubuntu / Linux)
+## Install Required Softwares**
+
+Before proceeding with the project setup, install the following required software tools and utilities on your Ubuntu workstation:
+
+### **1\. Visual Studio Code (VS Code)**
+
+The primary code editor for developing the backend and managing workspace files.
+
+* **Installation Command:**  
+    
+  sudo snap install code \--classic
+
+### **2\. Docker & Docker Compose**
+
+Containerization platform required to run local services like PostGIS and Redis.
+
+* **Installation Command:**  
+    
+  sudo apt update && sudo apt install \-y docker.io docker-compose-v2  
+    
+  sudo usermod \-aG docker \$USER
+
+### **3\. DBeaver Community Edition**
+
+Database client and GUI tool to inspect database tables and execute SQL queries.
+
+* **Installation Command:**  
+    
+  sudo snap install dbeaver-ce \--classic
+
+### **4\. QGIS**
+
+Geographic Information System application used to view, edit, and analyze vector shapefiles and spatial layers.
+
+* **Installation Command:**  
+    
+  sudo apt update && sudo apt install \-y qgis
+
+### **5\. Postman**
+
+API development and testing environment used to verify REST endpoints.
+
+* **Installation Command:**  
+    
+  sudo snap install postman
 
 ### 1. Prerequisites
 Before cloning and setting up the project, ensure your Ubuntu machine has the necessary system-level geospatial C-libraries installed:
