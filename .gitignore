@@ -1,0 +1,26 @@
+# Python / Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment Variables & Secrets
+.env
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+
+# Local Spatial / Data Files (GeoTIFFs, Shapefiles, SQLite dumps)
+data/
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+*.sqlite

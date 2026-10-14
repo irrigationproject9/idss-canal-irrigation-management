@@ -1,0 +1,25 @@
+[project]
+name = "idss-canal-irrigation-management"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.143.0",
+    "geopandas>=1.2.0",
+    "psycopg2-binary>=2.9.13",
+    "pydantic-settings>=2.15.0",
+    "pyomo>=6.10.1",
+    "python-dotenv>=1.2.4",
+    "rasterio>=1.5.2",
+    "shapely>=2.2.0",
+    "sqlalchemy>=2.1.4",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+idss-canal-irrigation-management = "idss_canal_irrigation_management:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
