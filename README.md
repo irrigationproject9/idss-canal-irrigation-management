@@ -87,6 +87,9 @@ source $HOME/.cargo/env
 #### Step 4: Sync Environment & Install Dependencies
 Use `uv sync` to automatically create the virtual environment (`.venv/`) and install all lockfile dependencies:
 ```bash
+# Ensure uv targets Python 3.12 as specified in pyproject.toml
+uv python install 3.12
+uv python pin 3.12
 uv sync
 ```
 
