@@ -9,7 +9,7 @@ Record the development prerequisites verified on the local Ubuntu workstation fo
 | Item | Observed result |
 |---|---|
 | Operating system | Ubuntu 26.04.1 LTS |
-| Python | 3.14.4 |
+| Python | 3.12.15 |
 | Git | 2.53.0 |
 | Docker | 29.1.3 |
 | Docker Compose | 2.40.3 |
